@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: #758673;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list{
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+  width: 500px;
+  background-color:#546452;
+  border-radius: 20px;
+  box-shadow: #334231 10px 10px 10px ;  
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1{
+  color: #fff;
+  margin: 10px;
+  font-size: 50px;
+}
+
+.input{
+  text-indent: 20px;
+  color:gray;
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+}
+
+
+
+.button{
+  color: #fff;
+  background-color: #96a894;
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.button:hover{
+  background-color: #b7cab5;
+}
+
+.tarefa{
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #758673;
+  width: 90%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.tarefa:hover{
+  background-color: #96a894;
+}
+
+.tarefa button{
+  background-color: transparent;
+  border: none;
+}
+
+.lixo{
+  color: #fff;
+font-size: 30px;
+}
